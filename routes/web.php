@@ -10,6 +10,9 @@ Route::get('/', function () {
 Route::get('/search', function () {
     return view('search');
 })->name('search');
+Route::get('/product-detail', function () {
+    return view('product-detail');
+})->name('product-detail');
 
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/', [adminPageController::class, 'dashboard'])->name('index');
