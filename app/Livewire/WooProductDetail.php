@@ -25,11 +25,14 @@ class WooProductDetail extends Component
         return view('livewire.woo-product-detail', [
             'title' => $this->product['name'],
             'url' => request()->fullUrl(),
+            'thumbnail' => $this->product['images'][0]['src'],
+            'description' => strip_tags($this->product['short_description'] ?? $this->product['description'] ?? 'Laptop seken berkualitas dengan harga terbaik.')
+
         ])->layout('product-detail', [
                     'title' => $this->product['name'] ?? '',
                     'keywords' => '',
                     'thumbnail' => $this->product['images'][0]['src'],
-                    'description' => strip_tags($this->product['short_description'] ?? '')
+                    'description' => strip_tags($this->product['short_description'] ?? $this->product['description'] ?? 'Laptop seken berkualitas dengan harga terbaik.')
                 ]);
     }
 }
