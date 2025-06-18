@@ -16,17 +16,17 @@
 </head>
 
 <body class="text-slate-700 flex justify-between">
-    <aside class="w-[360px] bg-white h-screen border border-gray-300 shadow-lg">
+    <aside class="w-[360px] bg-gray-100 h-screen border border-gray-300 shadow-lg">
         <div class="p-5 font-bold text-xl">
             DASHBOARD ADMIN
         </div>
         <div>
             <a href="#"
-                class="block w-full p-5 hover:bg-blue-500 rounded-md font-semibold duration-300 ease-in-out hover:text-white bg-blue-500 text-white">Dashboard</a>
+                class="block w-full p-2 hover:bg-gray-200 rounded-md font-semibold duration-300 ease-in-out bg-gray-200">Dashboard</a>
             <a href="#"
-                class="block w-full p-5 hover:bg-blue-500 rounded-md font-semibold duration-300 ease-in-out hover:text-white">Merk</a>
+                class="block w-full p-2 hover:bg-gray-200 rounded-md font-semibold duration-300 ease-in-out">Merk</a>
             <a href="#"
-                class="block w-full p-5 hover:bg-blue-500 rounded-md font-semibold duration-300 ease-in-out hover:text-white">Laptop</a>
+                class="block w-full p-2 hover:bg-gray-200 rounded-md font-semibold duration-300 ease-in-out">Laptop</a>
         </div>
     </aside>
     <main class="w-full">
