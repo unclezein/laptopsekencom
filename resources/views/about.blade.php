@@ -12,77 +12,77 @@
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/1.jpeg') }}" alt="testimoni 1"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/2.jpeg') }}" alt="testimoni 2"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/3.jpeg') }}" alt="testimoni 3"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/4.jpeg') }}" alt="testimoni 3"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/5.jpeg') }}" alt="testimoni 3"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/6.jpeg') }}" alt="testimoni 3"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/7.jpeg') }}" alt="testimoni 7"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/8.jpeg') }}" alt="testimoni 8"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/9.jpeg') }}" alt="testimoni 9"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/10.jpeg') }}" alt="testimoni 10"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/11.jpeg') }}" alt="testimoni 11"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/12.jpeg') }}" alt="testimoni 12"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/13.jpeg') }}" alt="testimoni 13"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/14.jpeg') }}" alt="testimoni 14"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
                 <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
                     <img src="{{ asset('asset/img/testimoni/15.jpeg') }}" alt="testimoni 15"
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
-                        onclick="openModal(this.src)">
+                        onclick="openModal(this.src)" loading="lazy">
                 </div>
             </div>
         </div>
@@ -140,7 +140,7 @@
                     class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
                     <div class="relative overflow-hidden lg:h-44 h-44 flex items-center justify-center">
                         <img src="{{ asset('asset/img/our-team/khoirul.jpeg') }}" alt="Khoirul"
-                            class="object-cover w-full h-full">
+                            class="object-cover w-full h-full" loading="lazy">
                     </div>
                     <div class="text-center p-2">
                         <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Khoirul Mizan</h3>
@@ -153,7 +153,7 @@
                     class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
                     <div class="relative overflow-hidden lg:h-44 h-44 flex items-center justify-center">
                         <img src="{{ asset('asset/img/our-team/aldi.jpeg') }}" alt="Aldi"
-                            class="object-cover w-full h-full">
+                            class="object-cover w-full h-full" loading="lazy">
                     </div>
                     <div class="text-center p-2">
                         <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Aldi Susanto</h3>
@@ -166,7 +166,7 @@
                     class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
                     <div class="relative overflow-hidden lg:h-44 h-44 flex items-end justify-center">
                         <img src="{{ asset('asset/img/our-team/thahir.JPG') }}" alt="Thahirudin"
-                            class="object-cover w-full h-full scale-120">
+                            class="object-cover w-full h-full scale-120" loading="lazy">
                     </div>
                     <div class="text-center p-2">
                         <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Thahirudin</h3>
@@ -178,7 +178,7 @@
                     class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
                     <div class="relative overflow-hidden lg:h-44 h-44 flex items-center justify-center">
                         <img src="{{ asset('asset/img/our-team/khoirul.jpeg') }}" alt="Khoirul"
-                            class="object-cover w-full h-full">
+                            class="object-cover w-full h-full" loading="lazy">
                     </div>
                     <div class="text-center p-2">
                         <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Khoirul Mizan</h3>
@@ -191,7 +191,7 @@
                     class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
                     <div class="relative overflow-hidden lg:h-44 h-44 flex items-center justify-center">
                         <img src="{{ asset('asset/img/our-team/aldi.jpeg') }}" alt="Aldi"
-                            class="object-cover w-full h-full">
+                            class="object-cover w-full h-full" loading="lazy">
                     </div>
                     <div class="text-center p-2">
                         <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Aldi Susanto</h3>
@@ -204,7 +204,7 @@
                     class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
                     <div class="relative overflow-hidden lg:h-44 h-44 flex items-end justify-center">
                         <img src="{{ asset('asset/img/our-team/thahir.JPG') }}" alt="Thahirudin"
-                            class="object-cover w-full h-full scale-120">
+                            class="object-cover w-full h-full scale-120" loading="lazy">
                     </div>
                     <div class="text-center p-2">
                         <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Thahirudin</h3>
