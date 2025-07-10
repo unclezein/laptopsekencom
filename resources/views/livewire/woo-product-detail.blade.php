@@ -1,5 +1,5 @@
 <main class="max-w-5xl w-full mx-auto grid lg:grid-cols-2">
-    <section class="p-10">
+    <section class="p-4 lg:p-10">
         <a href="{{ route('home') }}"
             class="mb-5 inline-block p-2 rounded-lg text-gray-500 hover:bg-gray-200 duration-300 ease-in-out">Back</a>
 
@@ -141,7 +141,7 @@
     </section>
 
     <!-- Product Info -->
-    <section class="p-10">
+    <section class="p-4 lg:p-10">
         <div class="mb-5">
             <h1 class="font-bold text-xl">
                 {{ $product['name'] }}

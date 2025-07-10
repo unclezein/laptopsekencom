@@ -1,18 +1,21 @@
 <?php
 
 use App\Livewire\About;
+use App\Livewire\SewaPage;
 use App\Livewire\WooProductList;
 use App\Livewire\WooProductDetail;
 use App\Livewire\WooProductListHome;
+use App\Livewire\Wooproductnew;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\merkController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\adminPageController;
 
-Route::get('/', WooProductList::class)->name('search');
-Route::get('/home', WooProductListHome::class)->name('home');
+Route::get('/', WooProductList::class)->name('home');
+Route::get('/new', Wooproductnew::class)->name('new');
 Route::get('/product-detail/{slug}', WooProductDetail::class)->name('product.detail');
 Route::get('/about', About::class)->name('about');
+Route::get('/sewa', SewaPage::class)->name('sewa');
 Route::get('/sitemap.xml', [SitemapController::class, 'index']);
 Route::get('/download-image', function (\Illuminate\Http\Request $request) {
     $url = $request->query('url');

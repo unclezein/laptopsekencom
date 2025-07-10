@@ -1,9 +1,9 @@
-<div class="text-slate-700">
+<div class="text-slate-700 p-4">
     <p class="mb-5">TOKOLAPTOPPKU / laptopseken.com adalah toko laptop seken terpercaya yang berfokus pada penyediaan
         perangkat
         berkualitas tinggi
         dengan harga yang ramah di kantong. Berbasis di Pekanbaru, kami telah membantu ratusan pelanggan dari pelajar,
-        mahasiswa, profesional, hingga pelaku UMKM — menemukan laptop yang sesuai dengan kebutuhan mereka.</p>
+        mahasiswa, profesional, hingga pelaku UMKM — menemukan laptop yang sesuai dengan kebutuhan kamu.</p>
 
     <div class="mb-10">
         <div>
@@ -84,6 +84,67 @@
                         class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
                         onclick="openModal(this.src)" loading="lazy">
                 </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/16.jpg') }}" alt="testimoni 16"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div><div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/17.jpg') }}" alt="testimoni 17"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/18.jpg') }}" alt="testimoni 18"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/19.jpg') }}" alt="testimoni 19"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/20.jpg') }}" alt="testimoni 20"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/21.jpg') }}" alt="testimoni 21"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/22.jpg') }}" alt="testimoni 22"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/23.jpg') }}" alt="testimoni 23"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/24.jpg') }}" alt="testimoni 24"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/25.jpg') }}" alt="testimoni 25"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/26.jpg') }}" alt="testimoni 26"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+                <div class="relative overflow-hidden h-32 lg:h-44 rounded-lg flex items-center justify-center">
+                    <img src="{{ asset('asset/img/testimoni/27.jpg') }}" alt="testimoni 27"
+                        class="object-cover object-center w-full hover:scale-105 duration-150 ease-in-out cursor-pointer"
+                        onclick="openModal(this.src)" loading="lazy">
+                </div>
+
+
             </div>
         </div>
 
@@ -139,7 +200,7 @@
                 <div
                     class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
                     <div class="relative overflow-hidden lg:h-44 h-44 flex items-center justify-center">
-                        <img src="{{ asset('asset/img/our-team/khoirul.jpeg') }}" alt="Khoirul"
+                        <img src="{{ asset('asset/img/our-team/khoirul.jpg') }}" alt="Khoirul"
                             class="object-cover w-full h-full" loading="lazy">
                     </div>
                     <div class="text-center p-2">
@@ -161,96 +222,14 @@
                     </div>
                 </div>
 
-                <!-- Card 3 -->
-                <div
-                    class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
-                    <div class="relative overflow-hidden lg:h-44 h-44 flex items-end justify-center">
-                        <img src="{{ asset('asset/img/our-team/thahir.JPG') }}" alt="Thahirudin"
-                            class="object-cover w-full h-full scale-120" loading="lazy">
-                    </div>
-                    <div class="text-center p-2">
-                        <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Thahirudin</h3>
-                        <p>Admin</p>
-                    </div>
-                </div>
-                <!-- Card 1 -->
-                <div
-                    class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
-                    <div class="relative overflow-hidden lg:h-44 h-44 flex items-center justify-center">
-                        <img src="{{ asset('asset/img/our-team/khoirul.jpeg') }}" alt="Khoirul"
-                            class="object-cover w-full h-full" loading="lazy">
-                    </div>
-                    <div class="text-center p-2">
-                        <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Khoirul Mizan</h3>
-                        <p>Founder</p>
-                    </div>
+
+
                 </div>
 
-                <!-- Card 2 -->
-                <div
-                    class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
-                    <div class="relative overflow-hidden lg:h-44 h-44 flex items-center justify-center">
-                        <img src="{{ asset('asset/img/our-team/aldi.jpeg') }}" alt="Aldi"
-                            class="object-cover w-full h-full" loading="lazy">
-                    </div>
-                    <div class="text-center p-2">
-                        <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Aldi Susanto</h3>
-                        <p>Technician</p>
-                    </div>
-                </div>
 
-                <!-- Card 3 -->
-                <div
-                    class="flex-shrink-0 relative overflow-hidden h-full border border-gray-300 rounded-lg hover:shadow-lg w-[200px]">
-                    <div class="relative overflow-hidden lg:h-44 h-44 flex items-end justify-center">
-                        <img src="{{ asset('asset/img/our-team/thahir.JPG') }}" alt="Thahirudin"
-                            class="object-cover w-full h-full scale-120" loading="lazy">
-                    </div>
-                    <div class="text-center p-2">
-                        <h3 class="font-bold text-wrap lg:text-xl text-blue-600">Thahirudin</h3>
-                        <p>Admin</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <style>
-            /* Animasi scroll */
-            @keyframes scroll {
-                0% {
-                    transform: translateX(0);
-                }
-
-                100% {
-                    transform: translateX(calc(-250px * 3));
-                    /* Geser sejumlah 3 card */
-                }
-            }
-
-            .animate-scroll {
-                animation: scroll 20s linear infinite;
-                display: flex;
-                width: calc(250x * 6);
-                /* Total lebar semua card (asli + duplikat) */
-            }
-
-            .object-cover {
-                object-fit: cover;
-            }
-        </style>
-
-        <script>
-            // Optional: Hentikan animasi saat hover untuk memudahkan interaksi pengguna
-            const container = document.getElementById('testimoniContainer');
-
-            container.addEventListener('mouseenter', () => {
-                container.style.animationPlayState = 'paused';
-            });
-
-            container.addEventListener('mouseleave', () => {
-                container.style.animationPlayState = 'running';
-            });
-        </script>
+            
     </div>
     <div class="my-5">
         <h2 class="text-center mb-5 font-xl font-bold text-blue-600">LOKASI</h2>

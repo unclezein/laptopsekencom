@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>{{ $title ?? 'TOKOLAPTOPPKU' }}</title>
     <meta name="description"
         content="{{ $description ?? 'Toko Laptop Seken Terpercaya, Jual Laptop Murah, Laptop Gaming, Laptop untuk Bisnis, Laptop untuk Pribadi di Pekanbaru' }}">
@@ -72,7 +73,7 @@
         <div class="loader"></div>
     </section>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const loader = document.getElementById('global-loader');
 
             document.querySelectorAll('a[href]').forEach(link => {
@@ -81,7 +82,7 @@
                 // Abaikan link kosong, #, atau javascript:void(0)
                 if (!href || href.startsWith('#') || href.startsWith('javascript')) return;
 
-                link.addEventListener('click', function(e) {
+                link.addEventListener('click', function (e) {
                     // Abaikan klik jika pakai Ctrl/Meta (cmd)/Shift (tab baru)
                     if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return;
 
@@ -97,7 +98,7 @@
         });
     </script>
 
-    <section class="max-w-xl w-full mx-auto fredoka mt-5">
+    <section class="max-w-xl w-full mx-auto fredoka my-5">
         <img src="{{ asset('asset/img/logo.png') }}"
             class="w-[120px] rounded-full mx-auto text-center inset-shadow-lg mb-5" alt="logo" loading="lazy">
         <h1 class="font-bold text-center text-xl">LAPTOPSEKEN.COM</h1>
@@ -144,38 +145,59 @@
     </section>
     <section class="max-w-xl w-full mx-auto">
         <div class="mb-4 border-b border-gray-200 dark:border-gray-700 text-gray-500 fill-gray-500">
-            <ul class="flex flex-wrap justify-center -mb-px text-sm font-medium text-center">
+            <ul class="flex flex-wrap justify-center -mb-px text-[10px] md:text-sm font-medium text-center">
                 <li class="me-2" role="presentation">
-                    <a href="{{ route('home') }}"
-                        class="inline-block p-4 border-b-2 rounded-t-lg  {{ ($menuActive ?? '') === 'home' ? 'text-blue-800 fill-blue-800 border-blue-800' : '' }} hover:fill-blue-700 hover:text-blue-700">
+                    <a href="{{ route('new') }}"
+                        class="inline-block p-2 border-b-2 rounded-t-lg  {{ ($menuActive ?? '') === 'home' ? 'text-blue-800 fill-blue-800 border-blue-800' : '' }} hover:fill-blue-700 hover:text-blue-700">
                         <div class="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-4 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" viewBox="0 0 640 512">
                                 <path
-                                    d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
+                                    d="M128 32C92.7 32 64 60.7 64 96l0 256 64 0 0-256 384 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L128 32zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384z" />
                             </svg>
-                            <span>home</span>
+                            <span>Laptop Baru</span>
                         </div>
                     </a>
                 </li>
                 <li class="me-2" role="presentation">
-                    <a href="{{ route('search') }}"
-                        class="inline-block p-4 border-b-2 rounded-t-lg  {{ ($menuActive ?? '') === 'search' ? 'text-blue-800 fill-blue-800 border-blue-800' : '' }} hover:fill-blue-700 hover:text-blue-700">
+                    <a href="{{ route('home') }}"
+                        class="inline-block p-2 border-b-2 rounded-t-lg  {{ ($menuActive ?? '') === 'search' ? 'text-blue-800 fill-blue-800 border-blue-800' : '' }} hover:fill-blue-700 hover:text-blue-700">
                         <div class="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" viewBox="0 0 512 512">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" viewBox="0 0 640 512">
                                 <path
-                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                                    d="M128 32C92.7 32 64 60.7 64 96l0 256 64 0 0-256 384 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L128 32zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384z" />
                             </svg>
-                            <span>Search</span>
+                            <span>Laptop Seken</span>
                         </div>
                     </a>
                 </li>
                 <li class="me-2" role="presentation">
                     <a href="{{ route('about') }}"
-                        class="inline-block p-4 border-b-2 rounded-t-lg  {{ ($menuActive ?? '') === 'about' ? 'text-blue-800 fill-blue-800 border-blue-800' : '' }} hover:fill-blue-700 hover:text-blue-700"">About</a>
+                        class="inline-block p-2 border-b-2 rounded-t-lg  {{ ($menuActive ?? '') === 'about' ? 'text-blue-800 fill-blue-800 border-blue-800' : '' }} hover:fill-blue-700 hover:text-blue-700">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z" />
+                            </svg>
+                            <span>About</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="me-2" role="presentation">
+                    <a href="{{ route('sewa') }}"
+                        class="inline-block p-2 border-b-2 rounded-t-lg  {{ ($menuActive ?? '') === 'sewa' ? 'text-blue-800 fill-blue-800 border-blue-800' : '' }} hover:fill-blue-700 hover:text-blue-700">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" viewBox="0 0 640 512">
+                                <path
+                                    d="M128 32C92.7 32 64 60.7 64 96l0 256 64 0 0-256 384 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L128 32zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384z" />
+                            </svg>
+                            <span>Sewa</span>
+                        </div>
+                    </a>
                 </li>
             </ul>
         </div>
-        <div class="p-4">
+        <div class="">
             {{ $slot }}
         </div>
     </section>
